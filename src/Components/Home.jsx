@@ -1,7 +1,26 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import image from "../Components/Assets/couch.png"
+import gsap from 'gsap';
 
 const Home = () => {
+    // const kuchbhi = () => {
+    //     var t1 = gsap.timeline();
+    //     t1.to(".couch", {
+    //         duration: 2,
+    //         ease: "bounce",
+    //         width: "100%",
+    //     })
+    // }
+    // setInterval(() => {
+    //     kuchbhi()
+    //     var t1 = gsap.timeline();
+    //     t1.to(".couch", {
+    //         duration: 1,
+    //         ease: "back",
+    //         width: "0%",
+    //     })
+    // }, 2000);
+
     return (
         <div className='container h-75'>
             <div className="row h-100">
